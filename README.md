@@ -38,7 +38,3 @@ Software Developer focused on building high-performance systems, refactoring leg
 `Model Context Protocol (MCP)` `REST APIs` `Asaas Webhooks` `QGIS` `PostgreSQL`
 
 ---
-
-### 📈 GitHub & Activity Stats
-![Francis's GitHub stats](https://github-readme-stats.vercel.app/api?username=francisreboucas&show_icons=true&theme=radial)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=francisreboucas&layout=compact&theme=radial)
