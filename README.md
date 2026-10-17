@@ -1,40 +1,55 @@
-[PT-BR]
-# Olá todos! Sou o Francis Rebouças👋
+## Francis Rebouças
 
-### 👨‍💻 Sobre Mim
-Desenvolvedor de Software focado no desenvolvimento de sistemas de alta performance, refatoração de arquiteturas legadas, sistemas embarcados e integrações em nuvem.
+Desenvolvedor de software em Belo Horizonte (MG). Trabalho com **backend, integração de sistemas e arquitetura**: ERP e SaaS, refatoração de sistemas legados, APIs transacionais e, cada vez mais, ferramentas de engenharia (CAD/BIM) e camadas de IA via **Model Context Protocol (MCP)**.
 
-- 🔭 **Trabalhando atualmente em:** 
-  - **Gestão de Projetos**: Refatorando a arquitetura de gestão de projetos, métricas de controle de tempo (time-tracking) e construindo uma camada de **MCP (Model Context Protocol)** para prontidão em IA.
-  - **Integração ERP & Sistemas Legados**: Arquitetura de APIs, validação de regras de negócio e sincronização de dados transacionais com plataformas de ERP.
-- 🌱 **Aprendendo e pesquisando:** Integração avançada de QGIS / Mapflow AI, pipelines em nuvem com Nx Cloud e GCP Artifact Registry.
-- 💬 **Pergunte-me sobre:** C++/Sistemas Embarcados, Node.js, PHP, Go, TypeScript, Integrações de API (Asaas, ArchiSnapper) e Otimização de Banco de Dados.
-- 📍 **Localização:** Belo Horizonte / MG - Brasil
+```text
+backend     Go · PHP (Laravel) · Python · Node.js / TypeScript
+dados       PostgreSQL · modelagem relacional · otimização de consultas
+integração  REST · webhooks · sincronização transacional com ERP · MCP
+desktop     Python + Qt (PySide6) · OpenGL (moderngl) · Rust (FFI/CLI)
+infra       Docker · GCP (Artifact Registry) · GitLab CI/CD · Nx Cloud
+baixo nível C++ · firmware / sistemas embarcados
+domínio     ERP · SaaS · CAD/paisagismo · Revit/BIM · QGIS
+```
 
-[EN]
-# Hi there, I'm Francis Rebouças 👋
+### Em destaque
 
-### 👨‍💻 About Me
-Software Developer focused on building high-performance systems, refactoring legacy architecture, and working with embedded systems and cloud integration.
+**[LeafDraw](https://github.com/francisreboucas/leafdraw)** — CAD para projeto de paisagismo, em beta (`v0.1.0-beta.3`).
 
-- 🔭 **Currently working on:** 
-  - **Gestão de Projetos**: Refactoring project management architecture, time-tracking metrics, and building an **MCP (Model Context Protocol)** layer for AI readiness.
-  - **ERP & Legacy Systems Integration**: API architecture, business rule validation, and transactional data synchronization with ERP platforms.
-- 🌱 **Learning & Researching:** Advanced QGIS / Mapflow AI integration, cloud pipelines with Nx Cloud & GCP Artifact Registry.
-- 💬 **Ask me about:** C++/Embedded Systems, Node.js, PHP, Go, TypeScript, API Integrations (Asaas, ArchiSnapper), and Database Optimization.
-- 📍 **Location:** Belo Horizonte / MG - Brazil
+- Núcleo de modelo separado da interface e testado com `pytest`: entidades imutáveis (linha, polilinha, arco, cota, hachura, planta), unidades em metros, pilha de undo e sinais
+- Geometria com transformações afins, interseções e tesselação; offset e contorno de hachura com Shapely
+- Viewport 2D + vista 3D em OpenGL 3.3 (moderngl) sobre PySide6
+- Importação/exportação DXF com ezdxf e conversor DWG próprio em **Rust**
+- Folhas de impressão com escala, carimbo e exportação para PDF
+- Empacotamento Windows: PyInstaller (modo pasta, DLLs do Qt substituíveis conforme a LGPL) + Inno Setup, com `--smoke-test` automatizado do pacote
 
----
+`Python` `PySide6` `moderngl` `Shapely` `ezdxf` `Rust` `pytest` `PyInstaller`
 
-### 🛠️ Tech Stack & Tools
+**[filter-sort-ux](https://github.com/francisreboucas/filter-sort-ux)** — skill para agentes de IA com um playbook de filtros e ordenação em listas corporativas (chips, cabeçalhos ordenáveis, padrões enterprise), com fontes rastreáveis.
 
-**Languages & Frameworks:**
-`C++` `JavaScript` `TypeScript` `Node.js` `Python` `React` `Vue` `PHP` `Laravel`
+**[Cidades-e-Estados](https://github.com/francisreboucas/Cidades-e-Estados)** — base de cidades e estados do Brasil em UTF-8.
 
-**Systems, Cloud & DevOps:**
-`Embedded Systems / Firmware` `Docker` `GCP` `Nx Cloud` `GitLab CI/CD` `Git`
+### Atualmente
 
-**Integrations & Tooling:**
-`Model Context Protocol (MCP)` `REST APIs` `Asaas Webhooks` `QGIS` `PostgreSQL`
+- **Gestão de projetos:** refatorando a arquitetura, as métricas de time-tracking e construindo uma camada MCP para expor o domínio a agentes de IA
+- **ERP e legado:** arquitetura de APIs, validação de regras de negócio e sincronização de dados transacionais com plataformas ERP (ex.: integrações Asaas e ArchiSnapper)
+- **Pesquisa:** QGIS + Mapflow AI, pipelines com Nx Cloud e GCP Artifact Registry
 
----
+### Contato
+
+[francisreboucas.com.br](https://francisreboucas.com.br)
+
+<details>
+<summary><b>English</b></summary>
+
+<br>
+
+Software developer based in Belo Horizonte, Brazil. I work on **backend, systems integration and architecture**: ERP and SaaS, legacy refactoring, transactional APIs, and increasingly engineering tools (CAD/BIM) and AI layers built on the **Model Context Protocol (MCP)**.
+
+**Featured — [LeafDraw](https://github.com/francisreboucas/leafdraw):** a landscape-design CAD app (beta). UI-independent, pytest-covered model core with immutable entities and an undo stack; affine geometry, intersections and hatch boundaries (Shapely); 2D drafting plus a 3D OpenGL 3.3 view (moderngl) on PySide6; DXF I/O via ezdxf and a custom DWG converter written in Rust; print sheets to PDF; Windows packaging with PyInstaller + Inno Setup and an automated smoke test.
+
+**Currently:** refactoring a project-management platform (architecture, time-tracking metrics, MCP layer for AI agents); API architecture and transactional data sync with ERP platforms; researching QGIS + Mapflow AI and cloud pipelines with Nx Cloud and GCP Artifact Registry.
+
+**Stack:** Go, PHP/Laravel, Python, Node.js/TypeScript, PostgreSQL, Qt/PySide6, OpenGL, Rust, C++/embedded, Docker, GCP, GitLab CI/CD.
+
+</details>
