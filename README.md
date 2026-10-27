@@ -8,19 +8,6 @@
   ░     ░   ░ ░   ░ ░   ░  ░░░  ░░░ ░░░░     ░   ░ ░░░░░ ░░░░   ░░░   ░░░   ░░░  ░   ░ ░░░░  
 ```
 
-```text
-          /\                            francis@reboucas ~ Belo Horizonte, MG
-         /  \                           -------------------------------------
-        /    \________________          role    backend · integração · arquitetura
-       /  ()  \               \         langs   Go · PHP · Python · Rust · TypeScript
-      /________\_______________\        data    PostgreSQL · modelagem relacional
-      |  _  _  |  _    _    _  |        domain  ERP · SaaS · CAD/BIM · IFC · MCP
-      | |_||_| | |_|  |_|  |_| |        build   ConstructCAD v0.5.0 — BIM em Rust
-      |   __   |      ____     |        uptime  desde o primeiro <?php echo ?>
-      |  |  |  |     |    |    |
-   ___|__|__|__|_____|____|____|___
-```
-
 Desenvolvedor de software em Belo Horizonte (MG). Trabalho com **backend, integração de sistemas e arquitetura**: ERP e SaaS, refatoração de sistemas legados, APIs transacionais e, cada vez mais, ferramentas de engenharia (CAD/BIM) e camadas de IA via **Model Context Protocol (MCP)**.
 
 ```text
