@@ -68,7 +68,7 @@ domínio     ERP · SaaS · CAD/paisagismo · Revit/BIM · QGIS
 
 `Python` `PySide6` `moderngl` `Shapely` `ezdxf` `Rust` `pytest` `PyInstaller`
 
-**[filter-sort-ux](https://github.com/francisreboucas/filter-sort-ux)** — skill para agentes de IA com um playbook de filtros e ordenação em listas corporativas (chips, cabeçalhos ordenáveis, padrões enterprise), com fontes rastreáveis.
+**filter-sort-ux** — skill para agentes de IA com um playbook de filtros e ordenação em listas corporativas (chips, cabeçalhos ordenáveis, padrões enterprise), com fontes rastreáveis.
 
 **[Cidades-e-Estados](https://github.com/francisreboucas/Cidades-e-Estados)** — base de cidades e estados do Brasil em UTF-8.
 
