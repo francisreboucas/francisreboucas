@@ -22,7 +22,7 @@ domínio     ERP · SaaS · CAD/paisagismo · Revit/BIM · QGIS
 
 ### Em destaque
 
-**[ConstructCAD](https://github.com/francisreboucas/constructcad)** — software livre de **BIM** escrito em Rust (GPL-3.0). Um único modelo paramétrico é a fonte da verdade: plantas, cortes, elevações, vistas 3D, tabelas e folhas são *consultas* sobre ele e se atualizam a cada alteração.
+**[ConstructCraft](https://github.com/francisreboucas/constructcraft)** — software livre de **BIM** escrito em Rust (GPL-3.0). Um único modelo paramétrico é a fonte da verdade: plantas, cortes, elevações, vistas 3D, tabelas e folhas são *consultas* sobre ele e se atualizam a cada alteração.
 
 ```text
    +---------------+------------+       um modelo -> plantas · cortes · elevações
